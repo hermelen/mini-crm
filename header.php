@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>PHP Forms</title>
+    <title>Mini CRM</title>
   </head>
   <body>
     <main>
