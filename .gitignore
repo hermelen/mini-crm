@@ -1,0 +1,4 @@
+/node_modules
+/share
+package-lock.json
+setting.php
