@@ -1,4 +1,5 @@
 <?php require "setting.php"; ?>
+<?php require "card-generator.php"; ?>
 <!doctype html>
 <html lang="fr">
     <?php require "head.php"; ?>
