@@ -41,12 +41,7 @@
   </li>
 </ul>
 
-
-
-
-
-
-<div class="accordion" id="accordionExample">
+<div class="accordion accordionClient" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
@@ -61,12 +56,12 @@
           <div class="col-12 col-sm-4">
             <img src="https://picsum.photos/200/200/?random" alt="">
           </div>
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-7">
             <h3>Nom Prénom</h3>
             <h4>Adresse du client, Code Postal, Ville</h4>
             <h5>Nom de l'entreprise</h5>
           </div>
-          <div class="col-12 col-sm-2">
+          <div class="col-12 col-sm-1">
             <i class="fas fa-trash-alt"></i>
             <i class="fas fa-edit"></i>
           </div>
@@ -88,12 +83,12 @@
           <div class="col-12 col-sm-4">
             <img src="https://picsum.photos/200/200/?random" alt="">
           </div>
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-7">
             <h3>Nom Prénom</h3>
             <h4>Adresse du client, Code Postal, Ville</h4>
             <h5>Nom de l'entreprise</h5>
           </div>
-          <div class="col-12 col-sm-2">
+          <div class="col-12 col-sm-1">
             <i class="fas fa-trash-alt"></i>
             <i class="fas fa-edit"></i>
           </div>
@@ -115,12 +110,12 @@
           <div class="col-12 col-sm-4">
             <img src="https://picsum.photos/200/200/?random" alt="">
           </div>
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-7">
             <h3>Nom Prénom</h3>
             <h4>Adresse du client, Code Postal, Ville</h4>
             <h5>Nom de l'entreprise</h5>
           </div>
-          <div class="col-12 col-sm-2">
+          <div class="col-12 col-sm-1">
             <i class="fas fa-trash-alt"></i>
             <i class="fas fa-edit"></i>
           </div>
@@ -129,6 +124,92 @@
     </div>
   </div>
 </div>
+
+
+<div class="accordion  accordionEntreprise" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          Entreprise 1
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <img src="https://picsum.photos/200/200/?random" alt="">
+          </div>
+          <div class="col-12 col-sm-7">
+            <h3>Nom de l'entreprise</h3>
+            <h4>Adresse du client, Code Postal, Ville</h4>
+            <h5>Nom Prénom</h5>
+          </div>
+          <div class="col-12 col-sm-1">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-edit"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Entreprise 2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <img src="https://picsum.photos/200/200/?random" alt="">
+          </div>
+          <div class="col-12 col-sm-7">
+            <h3>Nom de l'entreprise/h3>
+            <h4>Adresse du client, Code Postal, Ville</h4>
+            <h5>Nom Prénom</h5>
+          </div>
+          <div class="col-12 col-sm-1">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-edit"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Entreprise 3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <img src="https://picsum.photos/200/200/?random" alt="">
+          </div>
+          <div class="col-12 col-sm-7">
+            <h3>Nom de l'entreprise/h3>
+            <h4>Adresse du client, Code Postal, Ville</h4>
+            <h5>Nom Prénom</h5>
+          </div>
+          <div class="col-12 col-sm-1">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-edit"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
