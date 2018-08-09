@@ -7,13 +7,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Listings <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Listings</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="create-client.php">Ajouter Client</a>
+        <a class="nav-link" href="form-client.php">Ajouter Client</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="create-entreprise.php">Ajouter Entreprise</a>
+        <a class="nav-link" href="form-entreprise.php">Ajouter Entreprise</a>
       </li>
     </ul>
   </div>
