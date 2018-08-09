@@ -20,7 +20,10 @@
                 <button class="btn btn-outline-secondary" type="button"><i class="fas fa-ban"></i></button>
             </div>
         </div>
-        <div class="accordion accordionClient" id="accordionClient">
+        <?php
+        require "card.php" 
+        ?>
+        <!-- <div class="accordion accordionClient" id="accordionClient">
             <div class="card">
                 <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
@@ -102,10 +105,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
-        <div class="accordion  accordionEntreprise" id="accordionEntreprise">
+        <!-- <div class="accordion  accordionEntreprise" id="accordionEntreprise">
             <div class="card">
                 <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
@@ -187,6 +190,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </main>
