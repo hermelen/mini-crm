@@ -7,10 +7,10 @@
         <!-- Centered Tabs -->
         <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-                <a id="ongletClients" class="nav-link active" href="#">Clients(3)</a>
+                <a id="ongletClients" class="nav-link active" href="#">Clients(<?php echo count($clients) ?>)</a>
             </li>
             <li class="nav-item">
-                <a id="ongletEntreprises" class="nav-link" href="#">Entreprise(4)</a>
+                <a id="ongletEntreprises" class="nav-link" href="#">Entreprises(<?php //echo count($countEntreprises) ?>)</a>
             </li>
         </ul>
         <div id="searchAccordion" class="input-group">

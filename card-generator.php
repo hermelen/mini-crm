@@ -15,6 +15,10 @@ LEFT JOIN entreprise ON client.id_entreprise = entreprise.id')->fetchAll();
 
 
 $entreprises = $pdo->query('SELECT * FROM entreprise');
+// $countEntreprises = $entreprises;
+// $countEntreprises->fetchAll();
+
+// $countEntreprises = $pdo->query('SELECT * FROM entreprise')->fetchAll();
 // $entreprises = $pdo->query('SELECT client.nom AS client_nom, client.prenom AS client_prenom, entreprise.*
 // FROM entreprise
 // LEFT JOIN client ON client.id_entreprise = entreprise.id')->fetchAll();
