@@ -10,10 +10,10 @@
         <a class="nav-link" href="#">Listings <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Ajouter Client</a>
+        <a class="nav-link" href="create-client.php">Ajouter Client</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Ajouter Entreprise</a>
+        <a class="nav-link disabled" href="create-entreprise.php">Ajouter Entreprise</a>
       </li>
     </ul>
   </div>

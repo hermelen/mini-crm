@@ -3,14 +3,14 @@
 <?php
 foreach ($clients as $client) { ?>
   <div class="card">
-    <div class="card-header" id="heading<?php echo $client['id']?>">
+    <div class="card-header" id="heading-<?php echo $client['id']?>">
       <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse<?php echo $client['id']?>" aria-expanded="true" aria-controls="collapse<?php echo $client['id']?>">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-c-<?php echo $client['id']?>" aria-expanded="true" aria-controls="collapse-c-<?php echo $client['id']?>">
           <?php echo $client['nom']?>
         </button>
       </h5>
       </div>
-        <div id="collapse<?php echo $client['id']?>" class="collapse show" aria-labelledby="heading<?php echo $client['id']?>" data-parent="#accordionEntreprise">
+        <div id="collapse-c-<?php echo $client['id']?>" class="collapse show" aria-labelledby="heading-<?php echo $client['id']?>" data-parent="#accordionClient">
           <div class="card-body">
           <div class="row">
             <div class="col-12 col-sm-4">
@@ -23,7 +23,9 @@ foreach ($clients as $client) { ?>
           </div>
           <div class="col-12 col-sm-1">
             <i class="fas fa-trash-alt"></i>
-            <i class="fas fa-edit"></i>
+            <a href="create-client.php?id=<?php echo $client['id'] ?>">
+              <i class="fas fa-edit"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -35,14 +37,14 @@ foreach ($clients as $client) { ?>
 <?php
 foreach ($entreprises as $entreprise) { ?>
   <div class="card">
-    <div class="card-header" id="heading<?php echo $entreprise['id']?>">
+    <div class="card-header" id="heading-<?php echo $entreprise['id']?>">
       <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse<?php echo $entreprise['id']?>" aria-expanded="true" aria-controls="collapse<?php echo $entreprise['id']?>">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-e-<?php echo $entreprise['id']?>" aria-expanded="true" aria-controls="collapse-e-<?php echo $entreprise['id']?>">
           <?php echo $entreprise['nom']?>
         </button>
       </h5>
       </div>
-        <div id="collapse<?php echo $entreprise['id']?>" class="collapse show" aria-labelledby="heading<?php echo $entreprise['id']?>" data-parent="#accordionEntreprise">
+        <div id="collapse-e-<?php echo $entreprise['id']?>" class="collapse show" aria-labelledby="heading-<?php echo $entreprise['id']?>" data-parent="#accordionEntreprise">
           <div class="card-body">
           <div class="row">
             <div class="col-12 col-sm-4">
