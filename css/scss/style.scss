@@ -6,3 +6,8 @@ ul.navbar-nav.mr-auto {
   justify-content: center;
   li {}
 }
+
+ul.over-scroll {
+  max-height: 135px;
+  overflow: scroll;
+}

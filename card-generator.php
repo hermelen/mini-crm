@@ -2,6 +2,15 @@
 
 $pdo = new PDO("mysql:host=".$hostName.";dbname=".$dbName, $user, $pass);
 // $clients = $pdo->query('SELECT * FROM client');
+if (isset($_POST['delete_client'])) {
+  $id_client = $_POST['id_client'];
+  $deleteClient = $pdo->query('DELETE FROM client WHERE id='.$id_client);
+}
+
+if (isset($_POST['delete_entreprise'])) {
+  $id_entreprise = $_POST['id_entreprise'];
+  $deleteEntreprise = $pdo->query('DELETE FROM entreprise WHERE id='.$id_entreprise);
+}
 
 
 
