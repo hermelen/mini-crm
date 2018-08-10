@@ -8,13 +8,14 @@ $pdo = new PDO("mysql:host=".$hostName.";dbname=".$dbName, $user, $pass);
 $clients = $pdo->query('SELECT entreprise.nom AS entreprise_nom, client.*
 FROM client
 LEFT JOIN entreprise ON client.id_entreprise = entreprise.id')->fetchAll();
-// echo "<pre>";
-// print_r($clients);
-// echo "</pre>";
+$countClients = count($clients);
 
 
 
-$entreprises = $pdo->query('SELECT * FROM entreprise');
+$entreprises = $pdo->query('SELECT * FROM entreprise')->fetchAll();
+
+// $countEntreprises = $pdo->query('SELECT * FROM entreprise')->fetchAll();
+$countEntreprises = count($entreprises);
 // $countEntreprises = $entreprises;
 // $countEntreprises->fetchAll();
 
